@@ -12,7 +12,9 @@ var z3 bool
 // And assigns the value of the default
 
 type own_type int
+
 var b own_type
+
 // Declararing your own type
 
 //x := 100
@@ -33,4 +35,6 @@ func main() {
 	b = 11
 	fmt.Println(b)
 	fmt.Printf("%T\n", b)
+
+	z1 = int(b) //Conversion or Casting both are same
 }
