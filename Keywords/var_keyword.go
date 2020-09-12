@@ -19,6 +19,7 @@ func main() {
 	// The var keyword can be used outside the main function but in case of the short decalaration we cant use outside the main.
 	//The scope of the var is all through the program.
 	fmt.Println(y)
+	fmt.Printf("%T\n", y)
 	fmt.Println(z1)
 	fmt.Println(z2)
 	fmt.Println(z3)
