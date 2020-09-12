@@ -16,6 +16,8 @@ func main() {
 	var x = 10 //Integer
 	fmt.Println(x)
 
+	//y = 20 // Static Programming Language
+
 	// The var keyword can be used outside the main function but in case of the short decalaration we cant use outside the main.
 	//The scope of the var is all through the program.
 	fmt.Println(y)
