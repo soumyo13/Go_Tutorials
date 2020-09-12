@@ -11,6 +11,10 @@ var z3 bool
 // Declare there is a variable with the identifier "xyz" and that the variable with the identfuer "xyz" is of type "bool/string/int"
 // And assigns the value of the default
 
+type own_type int
+var b own_type
+// Declararing your own type
+
 //x := 100
 func main() {
 	var x = 10 //Integer
@@ -25,4 +29,8 @@ func main() {
 	fmt.Println(z1)
 	fmt.Println(z2)
 	fmt.Println(z3)
+
+	b = 11
+	fmt.Println(b)
+	fmt.Printf("%T\n", b)
 }
