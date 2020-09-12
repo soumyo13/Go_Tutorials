@@ -9,4 +9,7 @@ func main() {
 	fmt.Println(y)
 	z := true // Boolean
 	fmt.Println(z)
+
+	s := fmt.Sprintf("%v %v %v", x, y, z)
+	fmt.Printf("%T", s)
 }
