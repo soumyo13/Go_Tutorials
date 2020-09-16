@@ -25,10 +25,10 @@ func (p person) see() {
 }
 
 func (s secretAgent) speak() {
-	fmt.Println("I am in the Speak method. My name is : ", s.firstName, s.lastName)
+	fmt.Println("I am in the Speak method. My name is : ", s.firstName, s.lastName, s.licenseToKill)
 }
 func (s secretAgent) see() {
-	fmt.Println("I am in the See method. My name is : ", s.firstName, s.lastName)
+	fmt.Println("I am in the See method. My name is : ", s.firstName, s.lastName, s.licenseToKill)
 }
 
 func checkHumanity(h human) {
