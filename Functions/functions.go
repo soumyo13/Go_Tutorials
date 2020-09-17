@@ -42,6 +42,11 @@ func main() {
 	// }
 	// sa1.speak()
 
+	//Anonymous Function
+	func(x int) {
+		fmt.Println("This is an anonymous function. I am passing an integer.", x)
+	}(42)
+
 }
 
 func normalFunction() {
