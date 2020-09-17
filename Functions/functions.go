@@ -54,8 +54,15 @@ func main() {
 	// f()
 
 	//Return a Function
-	s1 := returnAFunction()
-	fmt.Println(s1)
+	// s1 := returnAFunction()
+	// fmt.Println(s1)
+	// x := func() int {
+	// 	return 420
+	// }()
+	// fmt.Println(x)
+	// y := returnAFunction1()
+	// i := y()
+	// fmt.Println(i)
 }
 
 func normalFunction() {
@@ -99,4 +106,9 @@ func (s secretAgent) speak() {
 func returnAFunction() string {
 	s := "Hello!!!"
 	return s
+}
+func returnAFunction1() func() int {
+	return func() int {
+		return 421
+	}
 }
