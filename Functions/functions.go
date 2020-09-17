@@ -48,10 +48,14 @@ func main() {
 	// }(42)
 
 	//Function Expression
-	f := func() {
-		fmt.Println("This is an function expression...")
-	}
-	f()
+	// f := func() {
+	// 	fmt.Println("This is an function expression...")
+	// }
+	// f()
+
+	//Return a Function
+	s1 := returnAFunction()
+	fmt.Println(s1)
 }
 
 func normalFunction() {
@@ -89,4 +93,10 @@ func f3() {
 //EndOfFunctions
 func (s secretAgent) speak() {
 	fmt.Println("I am ", s.firstName, s.lastName)
+}
+
+//Return a Function
+func returnAFunction() string {
+	s := "Hello!!!"
+	return s
 }
