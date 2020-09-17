@@ -42,11 +42,16 @@ func main() {
 	// }
 	// sa1.speak()
 
-	//Anonymous Function
-	func(x int) {
-		fmt.Println("This is an anonymous function. I am passing an integer.", x)
-	}(42)
+	//Anonymous Function - Always have to define inside a variable
+	// func(x int) {
+	// 	fmt.Println("This is an anonymous function. I am passing an integer.", x)
+	// }(42)
 
+	//Function Expression
+	f := func() {
+		fmt.Println("This is an function expression...")
+	}
+	f()
 }
 
 func normalFunction() {
